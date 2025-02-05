@@ -1,0 +1,5 @@
+@import "tailwindcss" source('../src');
+
+.nav-link {
+  @apply rounded-sm px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:text-blue-700;
+}
