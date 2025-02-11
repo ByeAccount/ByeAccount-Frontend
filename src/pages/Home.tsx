@@ -1,4 +1,4 @@
-import { Input } from "../components/forms/Input";
+import { SearchSection } from "../components/sections/SearchSection.tsx";
 
 export function Home() {
   return (
@@ -7,14 +7,7 @@ export function Home() {
         <h1 className="text-3xl font-bold">ByeAccount</h1>
         <p className="text-xl">Supprimez facilement vos comptes</p>
       </div>
-      <div className="mx-auto max-w-xl">
-        <Input
-          type="text"
-          placeholder="Rechercher un site"
-          value=""
-          onChange={() => {}}
-        />
-      </div>
+      <SearchSection />
     </div>
   );
 }
